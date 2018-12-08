@@ -1,15 +1,18 @@
 <div class="container">
   <div class="row">
-    <div class="card card-edit">
-      <div class="card-body">
-        <%= simple_form_for [@cocktail, @dose] do |f| %>
-        <%= f.input :description %>
-        <%= f.association :ingredient %>
+    <div class="col-md-4 col-md-offset-4">
+      <div class="card card-edit">
+        <div class="card-body">
+          <%= simple_form_for [@cocktail, @dose] do |f| %>
+          <%= f.input :description %>
+          <%= f.association :ingredient %>
 
-        <%= f.button :submit %>
-        <% end %>
+          <%= f.button :submit %>
+          <% end %>
 
+        </div>
       </div>
+
     </div>
   </div>
 </div>
