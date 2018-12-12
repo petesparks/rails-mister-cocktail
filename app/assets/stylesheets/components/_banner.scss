@@ -8,17 +8,49 @@
   align-items: center;
   justify-content: center;
 }
-.banner h1 {
-  font-size: 50px;
+h1 {
+  font-size: 70px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow:
+    0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac,
+    0 0 80px #ff7bac,
+    0 0 90px #ff7bac,
+    0 0 100px #ff7bac,
+    0 0 150px #ff7bac;
 }
 .banner p {
   font-size: 25px;
   font-weight: lighter;
-  color: #BCED09;
+  color: #fff;
   opacity: 1;
   margin-bottom: 30px;
+  text-shadow:
+    0 0 5px #BCED09,
+    0 0 10px #BCED09,
+    0 0 20px #BCED09,
+    0 0 40px #BCED09,
+    0 0 80px #BCED09,
+    0 0 90px #BCED09,
+    0 0 100px #BCED09,
+    0 0 150px #BCED09;
+}
+
+h2 a {
+  color: #fff;
+  font-size: 32px;
+  text-shadow:
+    0 0 5px #7bacff,
+    0 0 10px #7bacff,
+    0 0 20px #7bacff,
+    0 0 40px #7bacff,
+    0 0 80px #7bacff,
+    0 0 90px #7bacff,
+    0 0 100px #7bacff,
+    0 0 150px #7bacff;
 }
 
 .banner-show {

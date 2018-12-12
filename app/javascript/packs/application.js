@@ -11,8 +11,8 @@ import 'bootstrap';
 import { loadDynamicBannerText } from './components/banner';
 loadDynamicBannerText();
 
-import { loadDynamicShowText } from './components/show';
-loadDynamicShowText();
+// import { loadDynamicShowText } from './components/show';
+// loadDynamicShowText();
 
 console.log('Hello World from Webpacker')
 
